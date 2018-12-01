@@ -1,0 +1,13 @@
+disabled_rules:
+- trailing_whitespace
+- multiple_closures_with_trailing_closure
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+- Carthage
+- Pods
+line_length: 310
+identifier_name:
+  max_length:
+    warning: 45
+    error: 60
+  min_length:
+    warning: 2
